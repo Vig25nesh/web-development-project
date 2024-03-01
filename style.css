@@ -57,6 +57,12 @@ h2 {
 p {
     font-size: 1.2em;
 }
+
+.section-image {
+    max-width: 100%;
+    float: right;
+    margin-left: 20px;
+}
 @media (min-width: 38em){
     .wrapper {
         width: calc(100% - 3.75rem);
