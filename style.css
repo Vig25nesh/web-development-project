@@ -28,15 +28,16 @@ nav {
     top: 0; /* Position navigation at the top */
     width: 100%; /* Take up full width */
     z-index: 2; /* Ensure navigation is on top */
+    text-align: right;
 }
 
 nav a {
-    float: left;
-    display: block;
+    display : inline-block;
     color: white;
     text-align: left;
     padding: 14px 16px;
     text-decoration: none;
+    margin-right: 20px;
 }
 
 nav a:hover {
