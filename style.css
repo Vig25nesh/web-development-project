@@ -10,7 +10,7 @@ body {
 
 header {
     color: white;
-    text-align: center;
+    text-align: left;
     padding: 0.5em;
     position: relative;
     z-index: 1; /* Ensure header is on top */
