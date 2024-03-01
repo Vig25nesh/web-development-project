@@ -55,3 +55,8 @@ h2 {
 p {
     font-size: 1.2em;
 }
+@media (min-width: 38em){
+    .wrapper {
+        width: calc(100% - 3.75rem);
+    }
+}
