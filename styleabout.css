@@ -16,6 +16,28 @@ header {
     z-index: 1; /* Ensure header is on top */
 }
 
+nav {
+    background-color: #4f2323;
+    overflow: hidden;
+    position: absolute;
+    top: 0; /* Position navigation at the top */
+    width: 100%; /* Take up full width */
+    z-index: 2; /* Ensure navigation is on top */
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #592f2f; 
+}
+
 section {
     padding: 40px;
 }
