@@ -49,10 +49,17 @@ h1 {
     margin-bottom: 10px;
 }
 
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 form{
-    background: beige;
+    background: rosybrown;
     display: flex;
     flex-direction: column;
+    padding: 2vw 4vw;
     width: 90%;
     max-width: 600px;
     border-radius: 20px;
@@ -75,13 +82,14 @@ form input, form textarea{
 form button{
     padding: 15px;
     background: peachpuff;
-    color: white;
+    color: black;
     border: 0;
     outline: none;
     cursor: pointer;
     width: 180px;
     margin: 20px auto 0;
     border-radius: 20px;
+    font-size: 20px;
 }
 
 h2 {
