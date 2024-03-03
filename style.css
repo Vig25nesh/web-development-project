@@ -65,7 +65,6 @@ h1 {
     margin-bottom: 10px;
 }
 
-
 .profile-pic{
     float: left;
     border-radius: 300px;
@@ -105,7 +104,7 @@ form{
 }
 
 form h2{
-    color: black;
+    color: white;
     font-weight: 800;
     margin-bottom: 20px;
     font-family: 'Marcellus', serif;
@@ -122,8 +121,8 @@ form input, form textarea{
 
 form button{
     padding: 15px;
-    background: peachpuff;
-    color: black;
+    background: rgb(84, 36, 36);
+    color: white;
     border: 0;
     outline: none;
     cursor: pointer;

@@ -3,35 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vignesh's Portfolio</title>
+    <title>Vignesh's Portfolio</title> <!-- Website Title -->
     <link rel="stylesheet" href="style.css"> <!-- Link to the CSS file -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Fonts that were imported from Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <header>
+    <header> <!-- Header Section with main CTA (call to action) -->
         <h1>A little more about me...</h1>
     </header>
 
-    <nav>
+    <nav> <!-- Navigation with links to home, about, and my contact pages -->
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="contact.html">Contact</a>
     </nav>
 
-    <section>
+    <section> <!-- Left - Aligned picture of me! -->
         <img src ="Profile Picture Green.jpg" alt="My profile picture" class="profile-pic">
     </section>
 
-    <div class = "toggle-button">
+    <div class = "toggle-button"> <!-- Added toggle buttons for my skills, experience, and backgrounds -->
         <button onclick = "showSkills()">Skills</button>
         <button onclick = "showExperience()">Experience</button>
         <button onclick = "showBackground()">Background</button>
     </div>
 
-    <script>
+    <!-- Java Script functions which indicate which sections are shown/hidden correspondingly.-->
+    <script> 
         function showSkills(){
             document.getElementById("skills").style.display = "block";
             document.getElementById("experiences").style.display = "none";
@@ -52,18 +53,18 @@
 
     </script>
 
-    <section id="skills">
+    <section id="skills"> <!-- My Skills Section which is from my Resume -->
         <h2>My Skills</h2>
         <p>Visual Design, User Research, Product Thinking, Prototyping, Usability Testing, Interaction Design, Information
             Architecture, Storyboarding, Journey Mapping, Wireframing.</p>
     </section>
     
-    <section id="experiences" style="display:none;">
+    <section id="experiences" style="display:none;"> <!-- My Experiences Section -->
         <h2>Product Designer @ MyDigitalTat2</h2></br>
         <h2>Research Assistant @ Kennesaw State</h2></br>
     </section>
     
-    <section id="background" style="display:none;">
+    <section id="background" style="display:none;"> <!-- My Background Section which is imported from my LinkedIn profile -->
         <h2>My Background</h2>
         <p>Hello! I'm Vignesh, a product designer who loves translating research insights into intuitive digital experiences through thoughtful visual design. My expertise includes visual design, user research, prototyping, usability testing, and interaction design. My passion for human-centered design began while researching immersive VR interfaces and assistive technologies as an Interaction Design Research Assistant at Kennesaw State University.
 
