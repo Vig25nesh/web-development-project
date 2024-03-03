@@ -48,6 +48,12 @@ h1 {
     margin-bottom: 10px;
 }
 
+.profile-pic{
+    float: left;
+    border-radius: 120px;
+    margin-right: 20px;
+}
+
 .container{
     display: flex;
     align-items: center;
@@ -61,12 +67,12 @@ h1 {
 
 .toggle-button button {
     background: rosybrown;
-    color: black;
+    color: white;
     margin: 10px;
     padding: 10px;
     cursor: pointer;
     border-radius: 20px;
-    font-size: 1.2em;
+    font-size: 2.5em;
     font-family: 'Marcellus', serif;
 }
 
