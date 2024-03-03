@@ -60,11 +60,14 @@ h1 {
 }
 
 .toggle-button button {
-    background: rgb(220, 125, 94);
+    background: rosybrown;
     color: black;
     margin: 10px;
     padding: 10px;
     cursor: pointer;
+    border-radius: 20px;
+    font-size: 1.2em;
+    font-family: 'Marcellus', serif;
 }
 
 form{
@@ -81,6 +84,7 @@ form h2{
     color: black;
     font-weight: 800;
     margin-bottom: 20px;
+    font-family: 'Marcellus', serif;
 }
 
 form input, form textarea{
@@ -89,6 +93,7 @@ form input, form textarea{
     padding: 20px;
     outline: none;
     background: whitesmoke;
+    font-family: 'Marcellus', serif;
 }
 
 form button{
@@ -102,6 +107,7 @@ form button{
     margin: 20px auto 0;
     border-radius: 20px;
     font-size: 20px;
+    font-family: 'Marcellus', serif;
 }
 
 h2 {
