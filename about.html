@@ -27,19 +27,49 @@
         <button onclick = "showBackground()">Background</button>
     </div>
 
+    <script>
+        function showSkills(){
+            document.getElementById("skills").style.display = "block";
+            document.getElementById("experiences").style.display = "none";
+            document.getElementById("background").style.display = "none";
+        }
+
+        function showExperience(){
+            document.getElementById("skills").style.display = "none";
+            document.getElementById("experiences").style.display = "block";
+            document.getElementById("background").style.display = "none";
+        }
+
+        function showBackground(){
+            document.getElementById("skills").style.display = "none";
+            document.getElementById("experiences").style.display = "none";
+            document.getElementById("background").style.display = "block";
+        }
+
+    </script>
+
     <section id="skills">
         <h2>My Skills</h2>
-        <p></p>
+        <p>Visual Design, User Research, Product Thinking, Prototyping, Usability Testing, Interaction Design, Information
+            Architecture, Storyboarding, Journey Mapping, Wireframing.</p>
     </section>
     
     <section id="experiences" style="display:none;">
-        <h2>My Experiences</h2>
+        <h2>Product Designer @ MyDigitalTat2</h2>
         <p>.</p>
     </section>
     
     <section id="background" style="display:none;">
         <h2>My Background</h2>
-        <p></p>
+        <p>Hello! I'm Vignesh, a product designer who loves translating research insights into intuitive digital experiences through thoughtful visual design. My expertise includes visual design, user research, prototyping, usability testing, and interaction design. My passion for human-centered design began while researching immersive VR interfaces and assistive technologies as an Interaction Design Research Assistant at Kennesaw State University.
+
+            Since then, I've expanded my skills in user research, product thinking, prototyping, usability testing, interaction design, information architecture, storyboarding, journey mapping, and wireframing. As a Design Manager Intern at Develop for Good, I led a team in revamping their platforms using Figma, focused on usability and brand unity.
+            
+            My leadership experiences heading the UX/UI Design Club and Google Developer Student Club design teams have allowed me to guide others in elevating their skills through workshops, challenges, and mentoring programs. I enjoy helping up-and-coming designers refine their skills in tools like InVision, Sketch, Miro, and Adobe Suite.
+            
+            I'm eager to join a user-focused team and contribute my expertise in visual design, research-driven thinking, and passion for crafting inclusive digital experiences. 
+            
+            I'm excited to use my capabilities and welcome details on any positions your organization may have. If you have openings, I'm happy to discuss how I can help build great user-focused products.</p>
     </section>
 
 </body>
