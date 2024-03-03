@@ -21,10 +21,25 @@
         <a href="contact.html">Contact</a>
     </nav>
 
-    <section>
-        <h2>Bold with ideas, meticulous in execution</h2>
-        <p>I am currently a student at Kennesaw State University studying Interaction Design.</p>
-        <p>I've always been fascinated by the intersection of design and technology and how design and engineering come together to shape our environments. </p>
+    <div class = "toggle-buttons">
+        <button onclick = "showSkills()">Skills</button>
+        <button onclick = "showExperience()">Experience</button>
+        <button onclick = "showBackground()">Background</button>
+    </div>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <p></p>
+    </section>
+    
+    <section id="experiences" style="display:none;">
+        <h2>My Experiences</h2>
+        <p>.</p>
+    </section>
+    
+    <section id="background" style="display:none;">
+        <h2>My Background</h2>
+        <p></p>
     </section>
 
 </body>
