@@ -49,6 +49,41 @@ h1 {
     margin-bottom: 10px;
 }
 
+form{
+    background: beige;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 20px;
+}
+
+form h2{
+    color: black;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+form input, form textarea{
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: whitesmoke;
+}
+
+form button{
+    padding: 15px;
+    background: peachpuff;
+    color: white;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 180px;
+    margin: 20px auto 0;
+    border-radius: 20px;
+}
+
 h2 {
     font-size: 1.5em;
     margin-bottom: 10px;
