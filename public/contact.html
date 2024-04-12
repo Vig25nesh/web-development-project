@@ -22,15 +22,16 @@
     </nav>
 
     <div class="container"> <!-- Contact Form Section -->
-        <form>
+        <form action="/submit-form" method="post">
             <h2>Contact Me</h2> <!-- Main heading-->
             <input type ="text" id="Name" placeholder="Your Name" required> <!-- Name input field -->
             <input type ="email" id="email" placeholder="Your Email" required> <!-- Email input field -->
             <input type ="text" id="phone" placeholder="Phone Number" required> <!-- Phone # input field -->
             <textarea id="message" rows="4" placeholder="Contact Message"></textarea> <!-- Actual message text area-->
-            <button type="submit">Confirm</button> <!-- Submit Form -->
+            <button type="submit">Submit</button> <!-- Submit Form -->
         </form>
     </div>
     <script src="app.js"></script> <!-- [Work in Progress] Link to my external JavaScript file that I'm still working on for Milestone #2  -->
+    <script src="client.js"></script>
 </body>
 </html>
