@@ -2,7 +2,7 @@
 const express = require('express');
 const app = express();
 // Defining the port number
-const port = 3005;
+const port = 3008;
 
 // Parsing application and extracts form data
 app.use(express.urlencoded({ extended: true }));
@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
 
 app.post('/submit-form', (req, res) => {
     // Accessing the form data for all the required fields below
-    const username = req.body.username;
+    const name = req.body.name;
     const email = req.body.email;
     const phone = req.body.phone;
     const message = req.body.message;
