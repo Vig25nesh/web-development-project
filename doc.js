@@ -10,9 +10,9 @@ form.addEventListener("submit", function(event) {
     const phoneValue = document.querySelector("#phone").value;
     const messageValue = document.querySelector("#message").value;
 
-    // Validation Logic
+    // Validation Logic to ensure user fills out all fields
     if (!nameValue || !emailValue || !phoneValue || !messageValue) {
-        alert("You didn't fill out evrything yet!"); // Alert
+        alert("You didn't fill out evrything yet!"); // Error Alert
     } else {
         alert("Thanks for submitting!"); // Confirmation Message
     }
