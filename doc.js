@@ -12,7 +12,7 @@ form.addEventListener("submit", function(event) {
 
     // Validation Logic to ensure user fills out all fields
     if (!nameValue || !emailValue || !phoneValue || !messageValue) {
-        alert("You didn't fill out evrything yet!"); // Error Alert
+        alert("You didn't fill out everything yet!"); // Error Alert
     } else {
         alert("Thanks for submitting!"); // Confirmation Message
     }
